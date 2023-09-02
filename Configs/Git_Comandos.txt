@@ -1,0 +1,29 @@
+git init
+
+git branch -M main
+
+git remote add origin https://github.com/viniciuszile/Python_Udemy
+
+git add .
+
+git commit -a -m "..."
+
+git push origin main
+
+git clone 
+
+git remote remove origin
+
+
+git pull origin main
+
+usado para esse tipo de erro
+
+$ git push origin main
+To https://github.com/viniciuszile/Java
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/viniciuszile/Java'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.

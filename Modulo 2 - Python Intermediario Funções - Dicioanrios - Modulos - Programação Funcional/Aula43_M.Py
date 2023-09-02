@@ -1,0 +1,1 @@
+print("zile zika")
